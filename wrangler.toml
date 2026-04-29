@@ -1,0 +1,22 @@
+name = "gggg"
+main = "index.js"
+compatibility_date = "2025-11-09"
+workers_dev = true
+preview_urls = true
+# logpush job is setup to capture from envs ending: log, pro, or one
+logpush = false
+# use node_compat or custom build
+# node_compat = true
+send_metrics = false
+minify = false
+
+[vars]
+UUID = "6969399b-8785-4cc6-9f65-6a24e7548b52"
+PROXYIP = "nima.nscl.ir"
+
+# [build]
+# command = "npm run deploy"
+
+# [[rules]]
+# type = "ESModule"
+# globs = ["**/*.js"]
